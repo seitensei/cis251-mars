@@ -1,0 +1,16 @@
+int Factorial( int n )
+{
+  if (n > 0)
+    return Factorial( n - 1 ) * n
+  else
+    return 1
+}
+
+
+int product
+
+void main( )
+{
+
+ product = Factorial( 4 )
+}
